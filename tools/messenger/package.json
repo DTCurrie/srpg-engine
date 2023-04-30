@@ -1,0 +1,22 @@
+{
+  "name": "@srpg-engine/messenger",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./src/messenger.ts",
+  "module": "./src/messenger.ts",
+  "exports": {
+    ".": {
+      "import": "./src/messenger.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@srpg-engine/logger": "workspace:^",
+    "typescript": "^4.9.3",
+    "vitest": "^0.30.1"
+  }
+}

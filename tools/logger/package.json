@@ -1,0 +1,21 @@
+{
+  "name": "@srpg-engine/logger",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./src/logger.ts",
+  "module": "./src/logger.ts",
+  "exports": {
+    ".": {
+      "import": "./src/logger.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "vitest": "^0.30.1"
+  }
+}

@@ -1,0 +1,7 @@
+packages:
+  - apps/*
+  - core/*
+  - game/*
+  - level-editor
+  - server
+  - tools/*

@@ -1,0 +1,19 @@
+{
+  "name": "@srpg-engine/settings",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./src/settings.ts",
+  "module": "./src/settings.ts",
+  "exports": {
+    ".": {
+      "import": "./src/settings.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}

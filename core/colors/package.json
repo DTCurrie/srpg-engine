@@ -1,0 +1,20 @@
+{
+  "name": "@srpg-engine/colors",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./src/colors.ts",
+  "module": "./src/colors.ts",
+  "exports": {
+    ".": {
+      "import": "./src/colors.ts"
+    },
+    "./colors": "./src/colors.ts"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "@tactics-battle-game/level-editor",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node ../scripts/copy-models.js && vite --open",
+    "build": "node ../scripts/copy-models.js && tsc",
+    "preview": "node ../scripts/copy-models.js && vite preview"
+  },
+  "devDependencies": {
+    "@srpg-engine/api": "workspace:^",
+    "@srpg-engine/board": "workspace:^",
+    "@srpg-engine/colors": "workspace:^",
+    "@srpg-engine/delay": "workspace:^",
+    "@srpg-engine/settings": "workspace:^",
+    "@srpg-engine/three-utils": "workspace:^",
+    "@srpg-engine/ui": "workspace:^",
+    "@types/three": "^0.150.0",
+    "autoprefixer": "^10.4.14",
+    "cross-env": "^7.0.3",
+    "nanoid": "^3.3.6",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.1",
+    "three": "^0.151.2",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
+  }
+}

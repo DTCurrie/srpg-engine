@@ -1,0 +1,24 @@
+{
+  "name": "@srpg-engine/api",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./src/api.ts",
+  "module": "./src/api.ts",
+  "exports": {
+    ".": {
+      "import": "./src/api.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "three": "^0.151.2"
+  },
+  "devDependencies": {
+    "@types/three": "^0.150.0",
+    "three": "^0.151.2",
+    "typescript": "^4.9.3"
+  }
+}

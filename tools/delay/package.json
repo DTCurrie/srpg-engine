@@ -1,0 +1,21 @@
+{
+  "name": "@srpg-engine/delay",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./src/delay.ts",
+  "module": "./src/delay.ts",
+  "exports": {
+    ".": {
+      "import": "./src/delay.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "vitest": "^0.30.1"
+  }
+}

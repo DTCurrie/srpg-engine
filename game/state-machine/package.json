@@ -1,0 +1,21 @@
+{
+  "name": "@srpg-engine/state-machine",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./src/state-machine.ts",
+  "module": "./src/state-machine.ts",
+  "exports": {
+    ".": {
+      "import": "./src/state-machine.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "vitest": "^0.30.1"
+  }
+}

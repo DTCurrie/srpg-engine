@@ -1,0 +1,21 @@
+{
+  "name": "@srpg-engine/monorepo",
+  "version": "0.0.0",
+  "description": "An engine for creating strategy/tactical RPGs. Built with three.js and TypeScript.",
+  "scripts": {
+    "level-editor": "pnpm -r --parallel --filter='./level-editor' --filter='./server' run dev",
+    "build": "pnpm -r --filter='./core/*' --filter='./game/*' --filter='./level-editor' --filter='./server' --filter='./tools/*' run build"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.57.0",
+    "@typescript-eslint/parser": "^5.57.0",
+    "eslint": "^8.37.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-tailwindcss": "^3.11.0",
+    "prettier": "^2.8.7",
+    "prettier-plugin-tailwindcss": "^0.2.7"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0"
+}
